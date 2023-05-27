@@ -13,7 +13,7 @@
 }
 
 .body{
-    max-width: 80vw;
+ 
     margin: auto;
     padding-top: 2.5em;
     text-align: center;
@@ -61,7 +61,7 @@
  }
 
  #img_logo{
-    padding-right:50%;
+    padding:20px;
 }
 
  #handle_id{
@@ -87,10 +87,7 @@
 
  .div1_about{
     float:left;
-    color:black !important;
-    padding-right: 1em;
-    margin-top:6.2em;
-    margin-left:-9px;
+    
  }
 
  .div2_about{
@@ -152,7 +149,6 @@
 
 .project_info{
    color: #127ab3;
-   font-size:1.5em;  
 }
 
 .column2{
@@ -182,7 +178,7 @@
 
 #top_games{
    position: fixed;
-   top:45%;
+   top:45%; 
    width:100% ;
    color:white;
    font-size: 50px;
@@ -228,4 +224,59 @@ resize: none;
    width: 200px;
    border:none ;
    margin-top:20px ;
+}
+
+.topnav{
+   display: none;
+   position: relative;
+   background-color: #333; 
+}
+
+.topnav #myLinks{
+display: none;   
+}
+
+.topnav a.icon{
+   display: block;
+   position: absolute;
+   right: 0;
+   top:0;
+}
+.topnav a {
+   color: white;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+   display: block;
+ }
+.icon_back{
+   color:#127ab3 ;
+}
+
+
+
+
+
+@media  screen and (max-width:890px) {
+   .topnav {
+      display: block;
+   }
+   .nav_div{
+      display: none;
+   }
+   .nav_about{
+      display: none;
+   }
+   #footer{
+      display: none;
+   }
+
+   #profile_img{
+      width: 100%;
+      height: auto;
+   }
+  .nav_gaming{
+   display: none;
+  }
+
 }
